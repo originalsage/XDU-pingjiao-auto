@@ -96,7 +96,9 @@
         if (totalRadio === 0 && totalInput === 0) {
             setTimeout(runAll, 800);
         } else {
-            window.scrollTo(0, document.body.scrollHeight);
+            setTimeout(() => {
+                document.documentElement.scrollTop = document.documentElement.scrollHeight;
+            }, 1000);
         }
     }
 
