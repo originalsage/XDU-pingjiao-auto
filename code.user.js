@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         西电评教-单选框+文本框
-// @namespace    https://github.com/lilongsheng
+// @namespace    https://github.com/originalsage
 // @version      1.3.1
 // @description  延续原版单选框逻辑，增强 textarea 填写稳定性
 // @author       cursor
